@@ -1,0 +1,284 @@
+nav {
+  color: black;
+  margin: 0 auto;
+}
+
+nav h2 {
+  font-weight: 900;
+  font-size: 30px;
+  background-color: #fb9448;
+  margin-bottom: -3%;
+  margin-top: 0px;
+  padding: 20px;
+  color: white;
+}
+
+nav h3 {
+  text-align: center;
+  color: #151414bd;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.container-cards .jumbotron {
+  background-color: #eaeaea;
+  margin-top: 0%;
+  margin-bottom: 10%;
+  border: dotted;
+  border-color: #e1e2e81a;
+  color: black;
+}
+
+body {
+  background-color: white;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  background-color: #f7a061e0;
+  font-weight: 800;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron-2 {
+  margin-bottom: 0px;
+  background-color: #fef872;
+  font-weight: 800;
+}
+
+.main-container {
+  padding: 0px;
+  background-color: #d4d4d469;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1a85e0;
+  border-color: #398cd4;
+  /* float: right; */
+  width: 20%;
+  height: 50px;
+  margin-bottom: 60px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.btn {
+  font-size: 25px;
+}
+
+.container-cards .jumbotron h3 {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+  float: left;
+}
+
+.react-autosuggest__container {
+  /* background-color: white; */
+  border-radius: 100px;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.list-group-item {
+  background-color: #ffffff0f;
+  border: none;
+  color: #635c5c;
+  padding-top: 20px;
+}
+
+a.list-group-item:hover {
+  text-decoration: none;
+  color: #3f4840;
+}
+
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+  color: #4c564f;
+  text-decoration: none;
+  background-color: #8c23ea00;
+}
+
+a.list-group-item,
+button.list-group-item {
+  color: #4b8e53c4;
+  font-weight: 800;
+  font-size: 25px;
+  float: right;
+  padding-right: 8%;
+}
+
+a.list-group-item:focus,
+a.list-group-item:hover,
+button.list-group-item:focus,
+button.list-group-item:hover {
+  color: #4c564f;
+  text-decoration: none;
+  background-color: #8c23ea00;
+}
+
+.list-group h3 {
+  text-align: center;
+  color: #4d4c4c;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 3%;
+}
+
+img {
+  vertical-align: middle;
+  margin-left: 35%;
+  margin-bottom: -60px;
+}
+
+.card-row {
+  margin-top: 8rem;
+}
+
+.react-autosuggest__container--open {
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+.react-autosuggest__input {
+  width: 100%;
+  height: 5rem;
+  border-radius: 50px;
+  padding: 6rem 4rem;
+  font-size: 4.8rem;
+  font-weight: bold;
+  color: #171616;
+  border: solid;
+  outline: none;
+  background-color: #fbf6f6;
+  border-color: #80808017;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  z-index: 10;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  padding: 10px 1rem;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.react-autosuggest__suggestions-list {
+  list-style-type: none;
+}
+
+.suggestion {
+  text-decoration: none;
+  color: #666;
+  font-weight: bold;
+  font-size: 1.4rem;
+  display: block;
+  /* height: 100% !important; */
+  padding: 0.8rem 0;
+  cursor: pointer;
+}
+
+.suggestion:hover {
+  text-decoration: none;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #fafafa;
+}
+
+.card-small {
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  height: 100%;
+  padding: 3rem 2.4rem;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border: dotted;
+  border-color: #ffa66e3b;
+}
+
+.card-small-title {
+  color: #847d7e;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card-small-list {
+  list-style-type: none;
+}
+
+.card-small-list-item {
+  color: #847d7e;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0.6rem 0;
+}
+
+.sidebar {
+  background-color: #c3bfbf1a;
+  height: 40rem;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+}
+
+.sidebar-item {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #4b8e53c4;
+  font-size: 25px;
+}
+
+.card-large {
+  background-color: #e6e4e457;
+  height: 40rem;
+  border-radius: 2rem;
+  color: #4d4c4c;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  margin-bottom: 10%;
+}
+
+.card-large-title {
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+.card-large-title-main {
+  margin-bottom: 2rem;
+  color: #4d4c4c;
+  font-weight: 900;
+}
+
+.card-large-title-last {
+  margin-top: 2rem;
+}
+
+.card-large .content {
+  margin-left: 10rem;
+}
+
+.card-large-para {
+  font-size: 20px;
+  font-weight: normal;
+  font-weight: 700;
+}
+
+.link {
+  margin-right: 1rem;
+}

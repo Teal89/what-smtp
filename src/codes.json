@@ -1,0 +1,35 @@
+{
+  "error_code_251": {
+    "what_does_it_mean": "User not local will forward”: the recipient’s account is not on the present server, so it will be relayed to another",
+    "How_to_fix_it": "It’s a normal transfer action. For other information check out our article on what is an SMTP server.",
+    "Other_References": [
+      "<a href='http://google.com'>StackOverflow</a>",
+      "<a href='http://yahoo.com'>Mailjet</a>"
+    ]
+  },
+
+  "error_code_252": {
+    "what_does_it_mean": "The server cannot verify the user, but it will try to deliver the message anyway",
+    "How_to_fix_it": "The recipient’s email account is valid, but not verifiable. Normally the server relays the message to another one that will be able to check it."
+  },
+
+  "error_code_422": {
+    "what_does_it_mean": "The recipient’s mailbox has exceeded its storage limit.",
+    "How_to_fix_it": "Best is to contact contact the user via another channel to alert him and ask to create some free room in his mailbox."
+  },
+
+  "error_code_523": {
+    "what_does_it_mean": "The total size of your mailing exceeds the recipient server’s limits.",
+    "How_to_fix_it": "Re-send your message splitting the list in smaller subsets."
+  },
+
+  "error_code_550": {
+    "what_does_it_mean": "It usually defines a non-existent email address on the remote side.",
+    "How_to_fix_it": "Though it can be returned also by the recipient’s firewall (or when the incoming server is down), the great majority of errors 550 simply tell that the recipient email address doesn’t exist. You should contact the recipient otherwise and get the right address."
+  },
+
+  "error_code_250": {
+    "what_does_it_mean": "Nothing is wrong. Everything works fine",
+    "How_to_fix_it": "It’s a normal transfer action. For other information check out our article on what is an SMTP server."
+  }
+}
